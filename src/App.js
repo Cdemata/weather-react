@@ -12,6 +12,35 @@ export default function App() {
           </p>
         </header>
       </div>
+
+      <footer className="credit">
+        This project was coded by{" "}
+        <small>
+          <a
+            href="https://www.shecodes.io/graduates/61959-chanelle-demata"
+            target="_blank"
+            className="creditlink"
+          >
+            Chanelle Demata
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/Cdemata/weather-react"
+            target="_blank"
+            className="creditlink"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://iridescent-hotteok-b6cb19.netlify.app"
+            target="_blank"
+            className="creditlink"
+          >
+            hosted on Netlify
+          </a>{" "}
+        </small>
+      </footer>
     </div>
   );
 }

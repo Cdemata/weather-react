@@ -82,9 +82,10 @@ h3 {
 
 .temperature {
   font-size: 40px;
-  margin-left: 16px;
+  margin-left: 120px;
   line-height: 2;
   max-height: 20px;
+  margin-bottom: 10x;
 }
 
 .weather-now {

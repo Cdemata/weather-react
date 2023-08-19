@@ -14,8 +14,9 @@ export default function App() {
       </div>
 
       <footer className="credit">
-        This project was coded by{" "}
         <small>
+          {" "}
+          This project was coded by{" "}
           <a
             href="https://www.shecodes.io/graduates/61959-chanelle-demata"
             target="_blank"

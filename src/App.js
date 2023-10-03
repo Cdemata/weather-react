@@ -21,6 +21,7 @@ export default function App() {
             href="https://www.shecodes.io/graduates/61959-chanelle-demata"
             target="_blank"
             className="creditlink"
+            rel="noopener noreferrer"
           >
             Chanelle Demata
           </a>{" "}
@@ -29,6 +30,7 @@ export default function App() {
             href="https://github.com/Cdemata/weather-react"
             target="_blank"
             className="creditlink"
+            rel="noopener noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
@@ -37,6 +39,7 @@ export default function App() {
             href="https://iridescent-hotteok-b6cb19.netlify.app"
             target="_blank"
             className="creditlink"
+            rel="noopener noreferrer"
           >
             hosted on Netlify
           </a>{" "}

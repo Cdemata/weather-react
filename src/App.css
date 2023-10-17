@@ -1,17 +1,17 @@
 body {
-  background: #f8ad9d;
+  background: #755177;
   font-family: "Poppins", sans-serif;
-  color: #7f4146;
+  color: #674a68;
 }
-.kirby {
+.gengar {
   display: block;
-  max-width: 200px;
+  max-width: 250px;
   margin-left: -50px;
-  margin-top: -65px;
+  margin-top: -60px;
 }
 
 .container {
-  background-color: #fbc4ab;
+  background-color: #a487a5;
   max-width: 750px;
   margin-top: 50px;
 }
@@ -36,7 +36,7 @@ body {
   border: none;
   border-radius: 10px;
   background: none;
-  color: #7f4146;
+  color: #674a68;
   text-transform: lowercase;
   font-weight: lighter;
 }
@@ -44,8 +44,8 @@ body {
   border: none;
   max-width: 200px;
   border-radius: 10px;
-  background-color: #ffeede;
-  color: #7f4146;
+  background-color: #d4bfd5;
+  color: #a487a5;
 }
 
 .info-now {
@@ -55,6 +55,7 @@ body {
 h1 {
   padding-top: 20px;
   font-size: 30px;
+  margin-left: -5px;
   text-transform: capitalize;
 }
 
@@ -66,23 +67,18 @@ h3 {
   font-size: 15px;
 }
 .units {
-  color: #ac573d;
+  color: #755177;
   position: relative;
   font-size: 16px;
   text-decoration: none;
-  margin-left: 6px;
+  margin-left: -5px;
   top: -16px;
-}
-
-.units a {
-  color: #ac573d;
-  font-size: 16px;
-  text-decoration: none;
 }
 
 .temperature {
   font-size: 40px;
   margin: 10px;
+  margin-left: 140px;
   line-height: 2;
   max-height: 20px;
 }
@@ -92,8 +88,8 @@ h3 {
 }
 .current-weather {
   display: block;
-  margin-left: 60px;
-  margin-bottom: 0px;
+  margin-left: 70px;
+  margin-bottom: -70px;
   margin-top: 40px;
   max-height: 70px;
 }
@@ -126,22 +122,22 @@ li {
   margin: 10px auto;
   text-decoration: none;
   cursor: default;
-  color: #7f4146;
+  color: #957696;
 }
 
 .credit a:hover {
-  color: #ac573d;
+  color: #a487a5;
 }
 
 .creditlink {
   cursor: default;
-  color: #7f4146;
+  color: #957696;
 }
 
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   color: #ac573d;
 }
 
@@ -156,4 +152,11 @@ li {
 
 .weather-forecast-temperatures {
   font-size: 13px;
+}
+
+.WeatherForecast-temp {
+  margin-bottom: 10px;
+}
+.WeatherForecast-day {
+  margin-bottom: 10px;
 }

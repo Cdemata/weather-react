@@ -11,7 +11,7 @@ export default function Weatherinfo(props) {
         <div className="col-6">
           <div className="current-weather">
             <div className="float-left">
-              <WeatherIcon code={props.data.icon} size={52} />
+              <WeatherIcon code={props.data.icon} size={60} />
             </div>
           </div>
         </div>
@@ -45,11 +45,8 @@ export default function Weatherinfo(props) {
           </div>
 
           <div className="col-4">
-            <div className="kirbyimage">
-              <img
-                className="kirby"
-                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/065/728/original/0a4c012cc7d2124853dd9ee86c535ca2.gif?1675470126"
-              />
+            <div className="gengarimage">
+              <img className="gengar" src="https://i.imgur.com/pfLfuBk.gif" />
             </div>
           </div>
         </div>
